@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	color: #000;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+	background: linear-gradient(#eee, #fff);
+	background-repeat: no-repeat;
+	/*background-color: #eee;*/
+}
+
+#wrapper {
+	position: relative;
+	width: 1200;
+	margin: 0px auto;
+	background-color: #fff;
+	min-height: 100%;
+	padding-bottom: 50px;
+}
+
+#header {
+	position: relative;
+	background-color: #7cb327;
+	width: 100%;
+	height: 50px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #f00;
+}
+
+#header-image {
+	position: relative;
+	background-image: url('http://www.hotjobsonline.co.uk/files/2014/08/IT-job.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	width: 800px;
+	height: 250px;
+}
+
+#header-image-title {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 575px;
+	background-color: #fff;
+}
+
+#header-image-text {
+	font-size: 40px;
+	padding: 15px 0px 0px 15px;
+}
+
+#main-block {
+	position: relative;
+	width: 800px;
+	padding: 30px 0px 230px 0px;
+}
+
+#main-quickinfo {
+	position: absolute;
+	left: 0px;
+	width: 225px;
+}
+
+#info-circle {
+	position: relative;
+	margin: 15px auto;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 70px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #7cb327;
+}
+
+#main-text {
+	position: absolute;
+	left: 240px;
+}
+
+#side-block {
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	width: 375px;
+	background-color: #fd0;
+}
+
+li {
+	margin-left: 25px;
+}
+

@@ -1,0 +1,66 @@
+* {
+	color: #fff;
+}
+
+body {
+	margin: 0;
+	background-color: #eee;
+}
+
+p {
+	margin: 0px;
+	padding: 10px;
+	color: #000;
+	font-family: sans-serif;
+}
+
+p.Header1 {
+	font-weight: bold;
+	color: #555;
+	padding: 10px 10px 10px 0px;
+	font-size: 36px;
+}
+
+#sitecontainer {
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+}
+
+
+#header {
+	height: 50px;
+	background: #f84;
+}
+
+#header-image {
+	width: 1200px;
+	height: 150px;
+	background-image: url('http://www.hotjobsonline.co.uk/files/2014/08/IT-job.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	position: relative;
+}
+
+#header-image-title {
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	background: #fff;
+}
+
+#body {
+	top: 350px;
+	width: 900px;
+	float: left;
+	background: #4f4;
+}
+
+
+
+#sidebar {
+	top: 350px;
+	width: 300px;
+	float: right;
+	background: #f04;
+}
